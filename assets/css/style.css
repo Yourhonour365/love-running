@@ -99,7 +99,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding:right: 1rem;
+        padding-right: 1rem;
 
     }
 
@@ -133,6 +133,12 @@ main {
 
     /* Push content down to accomodate larger header */
     margin-top: 79px;
-    
+
 }
+}
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
