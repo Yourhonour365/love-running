@@ -31,8 +31,15 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 h1 {
     font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #25252525;
 
 }
 /* Main content */
